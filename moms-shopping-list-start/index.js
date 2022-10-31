@@ -24,7 +24,7 @@ form.addEventListener("submit", (event) => {
 
     var body = document.getElementsByTagName("body")[0];
 
-    button.addEventListener("click", function() {div.remove();
+    button.addEventListener("click", function() {li.remove();
 
     })    
     //create functions for the buttons(edit, delete)
