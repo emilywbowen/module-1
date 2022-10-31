@@ -20,11 +20,12 @@ form.addEventListener("submit", (event) => {
     //create buttons(edit, delete)
     const button = document.createElement("button");
     button.innerHTML = "X";
+    div.appendChild(button)
 
     var body = document.getElementsByTagName("body")[0];
 
-    button.addEventListener("click", function() {
-        
+    button.addEventListener("click", function() {div.remove();
+
     })    
     //create functions for the buttons(edit, delete)
     //these methods can help with delete btn
