@@ -19,7 +19,7 @@ form.addEventListener("submit", (event) => {
     
     //create buttons(edit, delete)
     const button = document.createElement("button");
-    button.innerHTML = "X";
+    button.innerlsHTML = "X";
     div.appendChild(button)
 
     var body = document.getElementsByTagName("body")[0];
