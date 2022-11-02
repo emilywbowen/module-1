@@ -14,16 +14,16 @@ const operations = ["add", "sub", "mul", "div"];
 const selectOperation = readlineSync.keyInSelect(operations, "Do you want to add, sub, mul, or div? ");
 
 function addNum(firstNumber, secondNumber) {
-    console.log("The answer is : " + (firstNumber + secondNumber));
+    return firstNumber + secondNumber
 }
 function subNum(firstNumber, secondNumber) {
-    console.log("The answer is : " + (firstNumber - secondNumber));
+    return firstNumber - secondNumber
 }
 function mulNum(firstNumber, secondNumber) {
-    console.log("The answer is : " + (firstNumber * secondNumber));
+    return firstNumber * secondNumber
 }
 function divNum(firstNumber, secondNumber) {
-    console.log("The answer is : " + (firstNumber / secondNumber));
+    return firstNumber / secondNumber
 }
 
 if(selectOperation === 0) {
@@ -32,7 +32,6 @@ if(selectOperation === 0) {
     subNum(firstNumber, secondNumber);
 }else if(selectOperation === 2) {
     mulNum(firstNumber, secondNumber);
-
 }else if(selectOperation === 3){
     divNum(firstNumber, secondNumber);
 }else{
