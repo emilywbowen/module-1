@@ -58,11 +58,7 @@ var userName = readlineSync.question("Who are you? ");
 
 console.log("Hey " + userName +"! Let's do some math!");
 
-const firstNumber = readlineSync.questionFloat("What is your first number? ");
-console.log(firstNumber);
 
-const secondNumber = readlineSync.questionFloat("What is your second number? ");
-console.log(secondNumber);
 
 const operations = ["add", "sub", "mul", "div"];
 
