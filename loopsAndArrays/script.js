@@ -36,3 +36,10 @@ var peopleWhoWantToSeeMadMaxFuryRoad = [
     }
   ]
   
+  for (var i = 0; i < peopleWhoWantToSeeMadMaxFuryRoad.length; i++) {
+    if (peopleWhoWantToSeeMadMaxFuryRoad[i].age < 18)
+    console.log((peopleWhoWantToSeeMadMaxFuryRoad[i].name) + " is not old enough to watch Mad Max Fury Road.")
+    else if (peopleWhoWantToSeeMadMaxFuryRoad[i].age >= 18)
+    console.log((peopleWhoWantToSeeMadMaxFuryRoad[i].name) + " is old enough to watch Mad Max Fury Road.")
+  }
+//   console.log(peopleWhoWantToSeeMadMaxFuryRoad[i])
