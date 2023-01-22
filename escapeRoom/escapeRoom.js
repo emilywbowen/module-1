@@ -3,16 +3,12 @@ const name = readline.question("What is your name? ");
 
 console.log("Hey " + name + "! IT'S A TRAP!!");
 
-let option 
-// ["Find the key!", "Open the door!", "Stick my hand in the weird hole!"];
-
-// option = readlineSync.keyInSelect("What would you like to do? (f) Find the key, (o) open the door, or (s) stick your hand in the weird hole over there?");
+let option
 
 let tryAgain = true
 
 let foundKey = false
 
-// while loop
 while (tryAgain){
     option = readline.keyIn("What would you like to do? (f) Find the key, (o) open the door, or (s) stick your hand in the weird hole over there?");
     if(option === "f"){
