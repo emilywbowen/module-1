@@ -29,14 +29,21 @@ let largest = findLargest(arrayNum);
 // // Printing result of includes()
 // console.log(a);
 
-let strings = ["$hello!", "%%^%%", "test!"];
+// let strings = ["$hello!", "%%^%%", "test!"]
+// let strings = ["#3", "$$$", "C%4!", "Hey!"]
+let strings = ["yellow", "green", "^up^", "down", "dog"]
 
-let lettersWithStrings = strings.filter(function() {
-    return strings == "!"; });
+function lettersWithStrings(myArray, searchCriteria) {
+    return myArray.filter(function(item){
+        return item.indexOf(searchCriteria) !==-1
 
-console.log(lettersWithStrings);
+})}
+
+// console.log(lettersWithStrings(strings,"!"));
+
+console.log(lettersWithStrings(strings, "h"));
 // test data
-// console.log(lettersWithStrings(["$hello!", "%%^%%", "test!"], "!"))  // => ["$hello!", "test!"]
+// console.log(lettersWithStrings(["$hello!", "%%^%%", "test!"], "!")) git // => ["$hello!", "test!"]
 // console.log(lettersWithStrings(["#3", "$$$", "C%4!", "Hey!"], "!"))  // => ["C%4!", "Hey!"]
 // console.log(lettersWithStrings(["yellow", "green", "^up^", "down", "dog"], "h"))  // => []
 
