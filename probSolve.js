@@ -53,3 +53,16 @@ console.log(lettersWithStrings(strings, "h"));
 // console.log(isDivisible(4, 2)) // => true
 // console.log(isDivisible(9, 3)) // => true
 // console.log(isDivisible(15, 4)) // => false
+
+function isDivisible(num1, num2){
+    if ((num1 % num2) === 0){
+        return true
+    } 
+    else {
+        return false
+    }
+}
+
+console.log(isDivisible(4, 2));
+console.log(isDivisible(9, 3));
+console.log(isDivisible(15, 4));
