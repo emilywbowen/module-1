@@ -16,7 +16,7 @@ while (tryAgain){
             console.log("Did you want an award for finding the most keys or something?")
         } else{
             console.log("You hold a strange key covered in goo...")
-        foundKey = true}
+            foundKey = true}
     } else if(option === "o"){
         tryAgain = false
         console.log("You've escaped! Yay.")
